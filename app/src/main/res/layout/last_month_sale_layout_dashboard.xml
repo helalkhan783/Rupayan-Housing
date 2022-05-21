@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:id="@+id/month"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/color_blue_gray"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="@dimen/top_five_dp"
+                        android:paddingBottom="@dimen/top_five_dp"
+                        android:singleLine="true"
+                        android:text="Month"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fourteen_sp_text_size" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".01">
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/saleType"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#C5DAF5"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="@dimen/top_five_dp"
+                        android:paddingBottom="@dimen/top_five_dp"
+                        android:singleLine="true"
+                        android:text="Sale Type"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fourteen_sp_text_size" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".01">
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/qty"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#C5DAF5"
+                        android:paddingTop="@dimen/top_five_dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="@dimen/top_five_dp"
+                        android:singleLine="true"
+                        android:text="Sale Qty"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fourteen_sp_text_size" />
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/white" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height=".5dp"
+            android:background="@color/white" />
+
+    </LinearLayout>
+</layout>

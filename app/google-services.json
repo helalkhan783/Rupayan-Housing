@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "411108206667",
+    "firebase_url": "https://mainmis-b9cb3-default-rtdb.firebaseio.com",
+    "project_id": "mainmis-b9cb3",
+    "storage_bucket": "mainmis-b9cb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411108206667:android:fe99b1fb5c6960bb0245ce",
+        "android_client_info": {
+          "package_name": "com.rupayan_housing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411108206667-a3vkc3htj6jpuipltjpkejitoa9seuol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS-vM7tIl-e81xHldElE51bZAmTqfSrGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411108206667-a3vkc3htj6jpuipltjpkejitoa9seuol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

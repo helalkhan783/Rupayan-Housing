@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <data>
+
+        <variable
+            name="clickHandle"
+            type="com.rupayan_housing.clickHandle.ConfirmEditNewSale" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context=".view.fragment.sale.editSale.ConfirmSaleEdit">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_binding" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/lato_regular"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="Customer Name*"
+                                android:textColor="@color/switch_color"
+                                android:textSize="@dimen/fifteen_sp_txt" />
+
+
+                            <AutoCompleteTextView
+                                android:id="@+id/customerName"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/et_and_spinner_height"
+                                android:background="@drawable/edittext_shape"
+                                android:gravity="center_vertical"
+                                android:hint="Search by  Name"
+                                android:paddingLeft="10dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/gray"
+                                android:textSize="@dimen/fourteen_sp_text_size"/>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/et_and_spinner_height"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/submit_button"
+                            android:gravity="center"
+                            android:onClick="@{()->clickHandle.addNewCustomer()}"
+                            android:text="Add New" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/lato_regular"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="Company*"
+                                android:textColor="@color/switch_color"
+                                android:textSize="@dimen/fifteen_sp_txt" />
+
+                            <EditText
+                                android:id="@+id/companyName"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/et_and_spinner_height"
+                                android:background="@drawable/edittext_shape"
+                                android:editable="false"
+                                android:focusable="false"
+                                android:gravity="center_vertical"
+                                android:hint="Company Name"
+                                android:paddingLeft="10dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/gray"
+                                android:textSize="@dimen/fourteen_sp_text_size" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/lato_regular"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="Owner Name*"
+                                android:textColor="@color/switch_color"
+                                android:textSize="@dimen/fifteen_sp_txt" />
+
+                            <EditText
+                                android:id="@+id/ownerName"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/et_and_spinner_height"
+                                android:background="@drawable/edittext_shape"
+                                android:editable="false"
+                                android:focusable="false"
+                                android:gravity="center_vertical"
+                                android:hint="Owner Name"
+                                android:paddingLeft="10dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/gray"
+                                android:textSize="@dimen/fourteen_sp_text_size" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/lato_regular"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="Contact No*"
+                                android:textColor="@color/switch_color"
+                                android:textSize="@dimen/fifteen_sp_txt" />
+
+                            <EditText
+                                android:id="@+id/contactNumber"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/et_and_spinner_height"
+                                android:background="@drawable/edittext_shape"
+                                android:editable="false"
+                                android:focusable="false"
+                                android:gravity="center_vertical"
+                                android:hint="Contact Number"
+                                android:paddingLeft="10dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/gray"
+                                android:textSize="@dimen/fourteen_sp_text_size" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="Address*"
+                                android:textColor="@color/switch_color"
+                                android:fontFamily="@font/lato_regular"
+                                android:textSize="@dimen/fifteen_sp_txt" />
+
+                            <EditText
+                                android:id="@+id/address"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/et_and_spinner_height"
+                                android:background="@drawable/edittext_shape"
+                                android:editable="false"
+                                android:focusable="false"
+                                android:gravity="center_vertical"
+                                android:hint="Address"
+                                android:maxLines="2"
+                                android:paddingLeft="10dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/gray"
+                                android:textSize="@dimen/fourteen_sp_text_size" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:text="Note*"
+                            android:textColor="@color/switch_color"
+                            android:fontFamily="@font/lato_regular"
+                            android:textSize="@dimen/fifteen_sp_txt" />
+
+                        <EditText
+                            android:id="@+id/note"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/edittext_shape"
+                            android:gravity="start"
+                            android:hint="Note"
+                            android:maxLines="6"
+                            android:padding="5dp"
+                             android:textColor="@color/black"
+                            android:textColorHint="@color/gray"
+                            android:textSize="@dimen/fourteen_sp_text_size" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/selectedProductsRv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/submit_button"
+                android:onClick="@{()->clickHandle.submit()}"
+                android:text="Update" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</layout>

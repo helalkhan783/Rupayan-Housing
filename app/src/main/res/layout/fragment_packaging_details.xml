@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context=".view.fragment.production.packaging.PackagingDetails">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_binding" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:background="#5F99C9"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="Packaging Information"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/uniqueOrderId"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".7"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="Packaging Number"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fifteen_sp_txt"/>
+
+                    <TextView
+                        android:id="@+id/packagingNumber"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.3"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=":"
+                        android:textSize="@dimen/fifteen_sp_txt"
+                        android:textColor="@color/gray" />
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".7"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="Date"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fifteen_sp_txt"/>
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.3"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=":"
+                        android:textSize="@dimen/fifteen_sp_txt"
+
+                        android:textColor="@color/gray" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".7"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="Note"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fifteen_sp_txt"/>
+
+                    <TextView
+                        android:id="@+id/note"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.3"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=":"
+                        android:textSize="@dimen/fifteen_sp_txt"
+
+                        android:textColor="@color/gray" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/procedureLAyout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="visible"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.3"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="Process by"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fifteen_sp_txt" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".7"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":   "
+                            android:textColor="@color/black" />
+
+                        <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+                            android:id="@+id/processByIcon"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.0"
+                            android:background="@null"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/app_logo"
+                            app:c_border="true"
+                            app:c_border_color="#0088CA"
+                            app:c_border_width="1dp"
+                            app:c_shadow_color="#0088CA" />
+
+                        <TextView
+                            android:id="@+id/processBynameTv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:gravity="center_vertical|start"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textSize="@dimen/fifteen_sp_txt"
+                            android:textAlignment="gravity"
+                            android:textColor="@color/gray" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:background="#5F99C9"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="Referrer Information"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".7"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="Ref Person"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fifteen_sp_txt" />
+
+                    <TextView
+                        android:id="@+id/refPerson"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.3"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=":"
+                        android:textSize="@dimen/fifteen_sp_txt"
+
+                        android:textColor="@color/gray" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".7"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="Phone No"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fifteen_sp_txt"/>
+
+                    <TextView
+                        android:id="@+id/phoneNo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.3"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=":"
+                        android:textSize="@dimen/fifteen_sp_txt"
+
+                        android:textColor="@color/gray" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".7"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="Email"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/fifteen_sp_txt"/>
+
+                    <TextView
+                        android:id="@+id/email"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.3"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=":"
+                        android:textSize="@dimen/fifteen_sp_txt"
+
+                        android:textColor="@color/gray" />
+
+                </LinearLayout>
+
+
+             </LinearLayout>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:background="#5F99C9"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="Product List "
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/packagingListRv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:overScrollMode="never" />
+
+
+
+    </LinearLayout>
+</layout>

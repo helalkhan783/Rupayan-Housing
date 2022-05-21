@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context=".EnterPriseEditFragment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar_binding" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/totalQuantity"
+                android:layout_below="@+id/toolbar">
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/toolbar"
+                    android:layout_marginBottom="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_marginBottom="90dp"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_weight="0.7"
+                                    android:maxLines="1"
+                                    android:singleLine="true"
+                                    android:text="Enterprise Full Name*"
+                                    android:textColor="@color/switch_color"
+                                    android:textSize="@dimen/fourteen_sp_text_size" />
+
+                                <EditText
+                                    android:id="@+id/fullName"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/et_and_spinner_height"
+                                    android:layout_marginTop="1dp"
+                                    android:layout_weight="1.3"
+                                    android:background="@drawable/edittext_shape"
+                                    android:paddingLeft="5dp"
+                                    android:text=" Enterprise full name"
+                                    android:textColor="@color/black"
+                                    android:textColorHint="@color/gray"
+                                    android:textSize="@dimen/fourteen_sp_text_size"
+                                    tools:ignore="TouchTargetSizeCheck" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.7"
+                                    android:maxLines="1"
+                                    android:singleLine="true"
+                                    android:text="Short Name*"
+                                    android:textColor="@color/switch_color"
+                                    android:textSize="@dimen/fourteen_sp_text_size" />
+
+                                <EditText
+                                    android:id="@+id/shortName"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/et_and_spinner_height"
+                                    android:layout_marginTop="1dp"
+                                    android:layout_weight="1.3"
+                                    android:background="@drawable/edittext_shape"
+                                    android:hint="Short Name"
+                                    android:paddingLeft="5dp"
+                                    android:textColor="@color/black"
+                                    android:textColorHint="@color/gray"
+                                    android:textSize="@dimen/fourteen_sp_text_size" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.7"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="0.32"
+                                        android:maxLines="1"
+                                        android:singleLine="true"
+                                        android:text="Address"
+                                        android:textColor="@color/switch_color"
+                                        android:textSize="@dimen/fourteen_sp_text_size" />
+
+
+                                </LinearLayout>
+
+
+                                <EditText
+                                    android:id="@+id/address"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/et_and_spinner_height"
+                                    android:layout_weight="1.3"
+                                    android:background="@drawable/edittext_shape"
+                                    android:hint="Address"
+                                    android:paddingLeft="5dp"
+                                    android:textColor="@color/black"
+                                    android:textColorHint="@color/gray"
+                                    android:textSize="@dimen/fourteen_sp_text_size" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_weight="0.7"
+                                    android:maxLines="1"
+                                    android:singleLine="true"
+                                    android:text="Enterprise Contact "
+                                    android:textColor="@color/switch_color"
+                                    android:textSize="@dimen/fourteen_sp_text_size" />
+
+                                <EditText
+                                    android:id="@+id/contact"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/et_and_spinner_height"
+                                    android:layout_weight="1.3"
+                                    android:background="@drawable/edittext_shape"
+                                    android:hint="Contact"
+                                    android:inputType="number"
+                                    android:paddingLeft="5dp"
+                                    android:textColor="@color/black"
+                                    android:textColorHint="@color/gray"
+                                    android:textSize="@dimen/fourteen_sp_text_size" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_weight="0.7"
+                                    android:maxLines="1"
+                                    android:singleLine="true"
+                                    android:text="Enterprise Email"
+                                    android:textColor="@color/switch_color"
+                                    android:textSize="@dimen/fourteen_sp_text_size" />
+
+                                <EditText
+                                    android:id="@+id/email"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/et_and_spinner_height"
+                                    android:layout_marginTop="1dp"
+                                    android:layout_weight="1.3"
+                                    android:background="@drawable/edittext_shape"
+                                    android:hint="Email"
+                                    android:inputType="textEmailAddress"
+                                    android:paddingLeft="5dp"
+                                    android:textColor="@color/black"
+                                    android:textColorHint="@color/gray"
+                                    android:textSize="@dimen/fourteen_sp_text_size" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:weightSum="2">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_weight="0.7"
+                                    android:maxLines="1"
+                                    android:singleLine="true"
+                                    android:text="Update Enterprise logo"
+                                    android:textColor="@color/switch_color"
+                                    android:textSize="@dimen/fourteen_sp_text_size" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="1dp"
+                                    android:layout_weight="1.2"
+                                    android:background="@drawable/edittext_shape"
+                                    android:orientation="horizontal"
+                                    android:weightSum="2">
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight=".5">
+
+                                        <ImageView
+                                            android:id="@+id/updateEnterPriseLogo"
+                                            android:layout_width="40dp"
+                                            android:layout_height="40dp"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_marginRight="5dp"
+                                            android:layout_marginBottom="5dp"
+                                            android:background="@drawable/file"
+                                            android:scaleType="fitXY" />
+                                    </LinearLayout>
+
+                                    <TextView
+                                        android:id="@+id/imageName1"
+                                        android:layout_width="0dp"
+                                        android:layout_height="40dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_marginEnd="2dp"
+                                        android:layout_weight="1.5"
+                                        android:gravity="center_vertical"
+                                        android:hint="Browse (Please select 200px * 200px Image)"
+                                        android:maxLines="1"
+                                        android:paddingLeft="3dp"
+                                        android:singleLine="true"
+                                        android:textColor="@color/black"
+                                        android:textColorHint="#808080"
+                                        android:textSize="@dimen/twelve_sp_txt_size" />
+
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:weightSum="2">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_weight="0.7"
+                                    android:maxLines="1"
+                                    android:singleLine="true"
+                                    android:text="Update Enterprise logo"
+                                    android:textColor="@color/switch_color"
+                                    android:textSize="@dimen/fourteen_sp_text_size" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="1dp"
+                                    android:layout_weight="1.2"
+                                    android:background="@drawable/edittext_shape"
+                                    android:orientation="horizontal"
+                                    android:weightSum="2">
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight=".5">
+
+                                        <ImageView
+                                            android:id="@+id/updateCompanyLogo"
+                                            android:layout_width="40dp"
+                                            android:layout_height="40dp"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_marginRight="5dp"
+                                            android:layout_marginBottom="5dp"
+                                            android:background="@drawable/file"
+                                            android:scaleType="fitXY" />
+                                    </LinearLayout>
+
+                                    <TextView
+                                        android:id="@+id/imageName2"
+                                        android:layout_width="0dp"
+                                        android:layout_height="40dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_marginEnd="2dp"
+                                        android:layout_weight="1.5"
+                                        android:gravity="center_vertical"
+                                        android:hint="Browse (Please select 200px * 200px Image)"
+                                        android:maxLines="1"
+                                        android:paddingLeft="3dp"
+                                        android:singleLine="true"
+                                        android:textColor="@color/black"
+                                        android:textColorHint="#808080"
+                                        android:textSize="@dimen/twelve_sp_txt_size" />
+
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </androidx.core.widget.NestedScrollView>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/update"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fourty_dp_btn"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/submit_button"
+                android:elevation="5dp"
+                android:text="Update"
+                android:textAlignment="center"
+                android:textAllCaps="true" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</layout>

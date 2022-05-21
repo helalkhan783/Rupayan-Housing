@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="clickHandle"
+            type="com.rupayan_housing.clickHandle.ConfirmSaleClickhandle" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context=".view.fragment.sale.newSale.ConfirmNewSale">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_binding" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/selectedProductsRv"
+                    android:layout_width="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="Customer Name*"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/lato_regular"
+                                android:textSize="@dimen/fifteen_sp_txt" />
+
+
+                            <AutoCompleteTextView
+                                android:id="@+id/customerName"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/spinner_height"
+                                android:layout_marginTop="1dp"
+                                 android:background="@drawable/edittext_shape"
+                                android:gravity="center_vertical"
+                                android:hint="Search by name"
+                                android:paddingLeft="10dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/gray"
+                                android:textSize="@dimen/fourteen_sp_text_size" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="Add New Customer"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/lato_regular"
+                                android:textSize="@dimen/fifteen_sp_txt" />
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/spinner_height"
+                                android:layout_marginTop="1dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/submit_button"
+                                android:gravity="center"
+                                android:onClick="@{()->clickHandle.addNewCustomer()}"
+                                android:text="Add New" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="Company*"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/lato_regular"
+                                android:textSize="@dimen/fifteen_sp_txt" />
+
+
+                            <EditText
+                                android:id="@+id/companyName"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/spinner_height"
+
+                                android:layout_marginTop="1dp"
+                                android:layout_weight="1.4"
+                                android:background="@drawable/edittext_shape"
+                                 android:editable="false"
+                                android:focusable="false"
+                                android:gravity="center_vertical"
+                                android:hint="Company Name"
+                                android:paddingLeft="10dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/gray"
+                                android:textSize="@dimen/fourteen_sp_text_size" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="Owner Name*"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/lato_regular"
+                                android:textSize="@dimen/fifteen_sp_txt" />
+
+                            <EditText
+                                android:id="@+id/ownerName"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/spinner_height"
+
+                                android:layout_marginTop="1dp"
+                                android:layout_weight="1.4"
+                                android:background="@drawable/edittext_shape"
+                                 android:editable="false"
+                                android:focusable="false"
+                                android:gravity="center_vertical"
+                                android:hint="Owner Name"
+                                android:paddingLeft="10dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/gray"
+                                android:textSize="@dimen/fourteen_sp_text_size" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="Contact Number*"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/lato_regular"
+                                android:textSize="@dimen/fifteen_sp_txt" />
+
+
+                            <EditText
+                                android:id="@+id/contactNumber"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/spinner_height"
+                                android:layout_marginTop="1dp"
+                                android:layout_weight="1.4"
+                                android:background="@drawable/edittext_shape"
+                                android:editable="false"
+                                android:focusable="false"
+                                android:gravity="center_vertical"
+                                android:hint="Contact Number"
+                                android:paddingLeft="10dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/gray"
+                                android:textSize="@dimen/fourteen_sp_text_size" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:text="Address*"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/lato_regular"
+                                android:textSize="@dimen/fifteen_sp_txt" />
+
+                            <EditText
+                                android:id="@+id/address"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/spinner_height"
+                                android:layout_marginTop="1dp"
+                                android:layout_weight="1.4"
+                                android:background="@drawable/edittext_shape"
+                                android:editable="false"
+                                android:focusable="false"
+                                android:gravity="center_vertical"
+                                android:hint="Address"
+                                android:paddingLeft="10dp"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/gray"
+                                android:textSize="@dimen/fourteen_sp_text_size" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                    <!--                    <LinearLayout-->
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_margin="5dp"-->
+                    <!--                        android:gravity="center_vertical"-->
+                    <!--                        android:orientation="horizontal"-->
+                    <!--                        android:weightSum="2">-->
+
+                    <!--                        <TextView-->
+                    <!--                            android:layout_width="0dp"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_weight="0.6"-->
+                    <!--                            android:maxLines="1"-->
+                    <!--                            android:singleLine="true"-->
+                    <!--                            android:text="Add Transport"-->
+                    <!--                            android:textColor="@color/black" />-->
+
+
+                    <!--                        <AutoCompleteTextView-->
+                    <!--                            android:id="@+id/searchVehicle"-->
+                    <!--                            android:layout_width="0dp"-->
+                    <!--                            android:layout_height="35dp"-->
+                    <!--                            android:layout_weight="1.4"-->
+                    <!--                            android:background="@drawable/edittext_shape"-->
+                    <!--                            android:gravity="center_vertical"-->
+                    <!--                            android:hint="Search Vehicle/Ship No *"-->
+                    <!--                            android:paddingLeft="10dp"-->
+                    <!--                            android:textColor="@color/black"-->
+                    <!--                            android:textColorHint="@color/gray" />-->
+                    <!--                    </LinearLayout>-->
+
+                    <!--                    <LinearLayout-->
+                    <!--                        android:id="@+id/addTransportChild"-->
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="match_parent"-->
+                    <!--                        android:orientation="vertical">-->
+
+
+                    <!--                        <LinearLayout-->
+                    <!--                            android:layout_width="match_parent"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_margin="5dp"-->
+                    <!--                            android:gravity="center_vertical"-->
+                    <!--                            android:orientation="horizontal"-->
+                    <!--                            android:weightSum="2">-->
+
+                    <!--                            <TextView-->
+                    <!--                                android:layout_width="0dp"-->
+                    <!--                                android:layout_height="wrap_content"-->
+                    <!--                                android:layout_weight="0.6"-->
+                    <!--                                android:maxLines="1"-->
+                    <!--                                android:singleLine="true"-->
+                    <!--                                android:text="Driver Name*"-->
+                    <!--                                android:textColor="@color/black" />-->
+
+                    <!--                            <EditText-->
+                    <!--                                android:id="@+id/driverName"-->
+                    <!--                                android:layout_width="0dp"-->
+                    <!--                                android:layout_height="35dp"-->
+                    <!--                                android:layout_weight="1.4"-->
+                    <!--                                android:background="@drawable/edittext_shape"-->
+                    <!--                                android:gravity="center_vertical"-->
+                    <!--                                android:hint="Driver Name"-->
+                    <!--                                android:paddingLeft="10dp"-->
+                    <!--                                android:textColor="@color/black"-->
+                    <!--                                android:textColorHint="@color/gray" />-->
+
+                    <!--                        </LinearLayout>-->
+
+
+                    <!--                        <LinearLayout-->
+                    <!--                            android:layout_width="match_parent"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_margin="5dp"-->
+                    <!--                            android:gravity="center_vertical"-->
+                    <!--                            android:orientation="horizontal"-->
+                    <!--                            android:weightSum="2">-->
+
+                    <!--                            <TextView-->
+                    <!--                                android:layout_width="0dp"-->
+                    <!--                                android:layout_height="wrap_content"-->
+                    <!--                                android:layout_weight="0.6"-->
+                    <!--                                android:maxLines="1"-->
+                    <!--                                android:singleLine="true"-->
+                    <!--                                android:text="Phone Number*"-->
+                    <!--                                android:textColor="@color/black" />-->
+
+                    <!--                            <EditText-->
+                    <!--                                android:id="@+id/phone"-->
+                    <!--                                android:layout_width="0dp"-->
+                    <!--                                android:layout_height="35dp"-->
+                    <!--                                android:layout_weight="1.4"-->
+                    <!--                                android:background="@drawable/edittext_shape"-->
+                    <!--                                android:gravity="center_vertical"-->
+                    <!--                                android:hint="Phone Number:"-->
+                    <!--                                android:paddingLeft="10dp"-->
+                    <!--                                android:textColor="@color/black"-->
+                    <!--                                android:textColorHint="@color/gray" />-->
+
+                    <!--                        </LinearLayout>-->
+
+
+                    <!--                        <LinearLayout-->
+                    <!--                            android:layout_width="match_parent"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_margin="5dp"-->
+                    <!--                            android:gravity="center_vertical"-->
+                    <!--                            android:orientation="horizontal"-->
+                    <!--                            android:weightSum="2">-->
+
+                    <!--                            <TextView-->
+                    <!--                                android:layout_width="0dp"-->
+                    <!--                                android:layout_height="wrap_content"-->
+                    <!--                                android:layout_weight="0.6"-->
+                    <!--                                android:maxLines="1"-->
+                    <!--                                android:singleLine="true"-->
+                    <!--                                android:text="Vehicle Fare:"-->
+                    <!--                                android:textColor="@color/black" />-->
+
+                    <!--                            <EditText-->
+                    <!--                                android:id="@+id/vehicleFare"-->
+                    <!--                                android:layout_width="0dp"-->
+                    <!--                                android:layout_height="35dp"-->
+                    <!--                                android:layout_weight="1.4"-->
+                    <!--                                android:background="@drawable/edittext_shape"-->
+                    <!--                                android:gravity="center_vertical"-->
+                    <!--                                android:hint="Vehicle Fare"-->
+                    <!--                                android:paddingLeft="10dp"-->
+                    <!--                                android:textColor="@color/black"-->
+                    <!--                                android:textColorHint="@color/gray" />-->
+
+                    <!--                        </LinearLayout>-->
+
+
+                    <!--                        <LinearLayout-->
+                    <!--                            android:layout_width="match_parent"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_margin="5dp"-->
+                    <!--                            android:gravity="center_vertical"-->
+                    <!--                            android:orientation="horizontal"-->
+                    <!--                            android:weightSum="2">-->
+
+                    <!--                            <TextView-->
+                    <!--                                android:layout_width="0dp"-->
+                    <!--                                android:layout_height="wrap_content"-->
+                    <!--                                android:layout_weight="0.6"-->
+                    <!--                                android:maxLines="1"-->
+                    <!--                                android:singleLine="true"-->
+                    <!--                                android:text="Vehicle Number*"-->
+                    <!--                                android:textColor="@color/black" />-->
+
+                    <!--                            <TextView-->
+                    <!--                                android:id="@+id/vehicleNumber"-->
+                    <!--                                android:layout_width="0dp"-->
+                    <!--                                android:layout_height="35dp"-->
+                    <!--                                android:layout_weight="1.4"-->
+                    <!--                                android:background="@drawable/edittext_shape"-->
+                    <!--                                android:gravity="center_vertical"-->
+                    <!--                                android:hint="Vehicle Number"-->
+                    <!--                                android:paddingLeft="10dp"-->
+                    <!--                                android:textColor="@color/black"-->
+                    <!--                                android:textColorHint="@color/gray" />-->
+
+                    <!--                        </LinearLayout>-->
+
+
+                    <!--                    </LinearLayout>-->
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/submit_button"
+                        android:onClick="@{()->clickHandle.save()}"
+                        android:text="Save" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+    </LinearLayout>
+</layout>

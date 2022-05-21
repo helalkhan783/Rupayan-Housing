@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swiprRefresjh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <Toolbar
+                android:id="@+id/okk"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:background="@drawable/bg_toolbar"
+                android:elevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/back_btn" />
+
+
+                    <TextView
+                        android:id="@+id/tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="Dashboard Report"
+                        android:textSize="@dimen/sixteen_sp_tx_size"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+            </Toolbar>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/bottom_navigation"
+                android:layout_below="@id/okk">
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:visibility="visible">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:id="@+id/totalMill"
+
+                                    android:layout_width="0dp"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="1">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="5dp"
+                                        android:backgroundTint="#4AB2D7"
+                                        app:cardCornerRadius="5dp">
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <TextView
+                                                android:id="@+id/totalMillTv"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_centerInParent="true"
+                                                android:singleLine="true"
+                                                android:text="0"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/fourteen_sp_text_size"
+                                                android:textStyle="bold" />
+
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_below="@+id/totalMillTv"
+                                                android:layout_centerInParent="true"
+                                                android:paddingRight="20dp"
+                                                android:singleLine="true"
+                                                android:text="Total Mills"
+                                                android:textAllCaps="true"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/fourteen_sp_text_size" />
+
+                                            <ImageView
+                                                android:layout_width="40dp"
+                                                android:layout_height="30dp"
+                                                android:layout_alignParentEnd="true"
+                                                android:layout_marginTop="5dp"
+                                                android:layout_marginRight="5dp"
+                                                android:background="@drawable/mill_icon_dash" />
+
+
+                                        </RelativeLayout>
+
+
+                                    </androidx.cardview.widget.CardView>
+
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/activeMills"
+
+                                    android:layout_width="0dp"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="1">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="5dp"
+                                        android:backgroundTint="#4AB2D7"
+                                        app:cardCornerRadius="5dp">
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <TextView
+                                                android:id="@+id/activeMillTv"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_centerInParent="true"
+                                                android:paddingRight="20dp"
+                                                android:singleLine="true"
+                                                android:text="0"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/fourteen_sp_text_size"
+                                                android:textStyle="bold" />
+
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+
+                                                android:layout_height="wrap_content"
+                                                android:layout_below="@+id/activeMillTv"
+                                                android:layout_centerInParent="true"
+                                                android:paddingRight="20dp"
+                                                android:singleLine="true"
+                                                android:text="Active Mills"
+                                                android:textAllCaps="true"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/fourteen_sp_text_size" />
+
+                                            <ImageView
+                                                android:layout_width="40dp"
+                                                android:layout_height="30dp"
+                                                android:layout_alignParentEnd="true"
+                                                android:layout_marginTop="5dp"
+                                                android:layout_marginRight="5dp"
+                                                android:background="@drawable/mill_icon_dash" />
+
+
+                                        </RelativeLayout>
+
+
+                                    </androidx.cardview.widget.CardView>
+
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:id="@+id/inActiveMills"
+                                    android:layout_width="0dp"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="1">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="5dp"
+                                        android:backgroundTint="#4AB2D7"
+                                        app:cardCornerRadius="5dp">
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <TextView
+                                                android:id="@+id/inactiveMillTv"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_centerInParent="true"
+                                                android:maxLines="1"
+                                                android:paddingRight="20dp"
+                                                android:singleLine="true"
+                                                android:text="0"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/fourteen_sp_text_size"
+                                                android:textStyle="bold" />
+
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_below="@+id/inactiveMillTv"
+                                                android:layout_centerInParent="true"
+                                                android:paddingRight="20dp"
+                                                android:text="Inactive Mills"
+                                                android:textAllCaps="true"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/fourteen_sp_text_size" />
+
+                                            <ImageView
+                                                android:layout_width="40dp"
+                                                android:layout_height="30dp"
+                                                android:layout_alignParentEnd="true"
+                                                android:layout_marginTop="5dp"
+                                                android:layout_marginRight="5dp"
+                                                android:background="@drawable/mill_icon_dash" />
+
+
+                                        </RelativeLayout>
+
+
+                                    </androidx.cardview.widget.CardView>
+
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="1">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:id="@+id/totalPurchaseLayout"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="5dp"
+                                        android:backgroundTint="#4AB2D7"
+                                        app:cardCornerRadius="5dp">
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <TextView
+                                                android:id="@+id/purchase"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_above="@+id/sdkgd"
+                                                android:layout_centerInParent="true"
+                                                android:singleLine="true"
+                                                android:text="@string/_0_000_mt"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/fourteen_sp_text_size"
+                                                android:textStyle="bold" />
+
+
+                                            <TextView
+                                                android:id="@+id/sdkgd"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_centerInParent="true"
+                                                android:singleLine="true"
+                                                android:text="Purchase"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/fourteen_sp_text_size" />
+
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_below="@+id/sdkgd"
+                                                android:layout_centerInParent="true"
+                                                android:singleLine="true"
+                                                android:text="Current Month"
+                                                android:textAllCaps="false"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/eleven_txt_size" />
+
+
+                                            <ImageView
+                                                android:layout_width="35dp"
+                                                android:layout_height="30dp"
+                                                android:layout_alignParentEnd="true"
+                                                android:layout_marginTop="4dp"
+                                                android:layout_marginRight="5dp"
+                                                android:background="@drawable/purchase_dashboard_icon" />
+
+
+                                        </RelativeLayout>
+
+
+                                    </androidx.cardview.widget.CardView>
+
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="1">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:id="@+id/totalProduction"
+
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="5dp"
+                                        android:backgroundTint="#4AB2D7"
+                                        app:cardCornerRadius="5dp">
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <TextView
+                                                android:id="@+id/totalProductionTv"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_above="@+id/ok"
+                                                android:layout_centerInParent="true"
+                                                android:paddingRight="20dp"
+                                                android:singleLine="true"
+                                                android:text="@string/_0_000_mt"
+
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/fourteen_sp_text_size"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:id="@+id/ok"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_centerInParent="true"
+                                                android:singleLine="true"
+                                                android:text="Production"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/fourteen_sp_text_size" />
+
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_below="@+id/ok"
+                                                android:layout_centerInParent="true"
+                                                android:singleLine="true"
+                                                android:text="Current Month"
+                                                android:textAllCaps="false"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/eleven_txt_size" />
+
+
+                                            <ImageView
+                                                android:layout_width="35dp"
+                                                android:layout_height="30dp"
+                                                android:layout_alignParentEnd="true"
+                                                android:layout_marginTop="6dp"
+                                                android:layout_marginRight="10dp"
+                                                android:background="@drawable/production_dashboard_icon" />
+
+
+                                        </RelativeLayout>
+
+
+                                    </androidx.cardview.widget.CardView>
+
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="1">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:id="@+id/totalSaleLayout"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="5dp"
+                                        android:backgroundTint="#4AB2D7"
+                                        app:cardCornerRadius="5dp">
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <TextView
+                                                android:id="@+id/totalSale"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_above="@+id/layout"
+                                                android:layout_centerInParent="true"
+                                                android:singleLine="true"
+                                                android:text="@string/_0_000_mt"
+                                                android:textColor="@color/white"
+
+                                                android:textSize="@dimen/fourteen_sp_text_size"
+                                                android:textStyle="bold" />
+
+                                            <LinearLayout
+                                                android:id="@+id/layout"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_centerInParent="true"
+                                                android:layout_marginRight="15dp"
+                                                android:orientation="horizontal">
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:singleLine="true"
+                                                    android:text="Sale"
+                                                    android:textColor="@color/white"
+
+                                                    android:textSize="@dimen/fourteen_sp_text_size" />
+
+                                            </LinearLayout>
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_below="@+id/layout"
+                                                android:layout_centerInParent="true"
+                                                android:paddingRight="20dp"
+                                                android:singleLine="true"
+                                                android:text="Current Month"
+                                                android:textAllCaps="false"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/eleven_txt_size" />
+
+
+                                            <ImageView
+                                                android:layout_width="45dp"
+                                                android:layout_height="30dp"
+                                                android:layout_alignParentEnd="true"
+                                                android:layout_marginTop="6dp"
+                                                android:layout_marginRight="5dp"
+                                                android:background="@drawable/sale_dashboard_icon" />
+
+
+                                        </RelativeLayout>
+
+
+                                    </androidx.cardview.widget.CardView>
+
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="1">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:id="@+id/totalIodinePurchaseLayout"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="5dp"
+                                        android:backgroundTint="#4AB2D7"
+                                        app:cardCornerRadius="5dp">
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <LinearLayout
+                                                android:id="@+id/layout1"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_above="@+id/klklk"
+                                                android:layout_centerInParent="true"
+                                                android:layout_marginRight="15dp"
+                                                android:orientation="horizontal">
+
+                                                <TextView
+                                                    android:id="@+id/iodinePurchase"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="match_parent"
+                                                    android:singleLine="true"
+                                                    android:text="@string/_0_000_mt"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="@dimen/fourteen_sp_text_size"
+                                                    android:textStyle="bold" />
+
+
+                                            </LinearLayout>
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_below="@+id/klklk"
+                                                android:layout_centerInParent="true"
+                                                android:singleLine="true"
+                                                android:text="Current Month"
+                                                android:textAllCaps="false"
+
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/eleven_txt_size" />
+
+                                            <TextView
+                                                android:id="@+id/klklk"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_centerInParent="true"
+                                                android:layout_marginRight="10dp"
+                                                android:singleLine="true"
+                                                android:text="Iodine Purchase"
+                                                android:textAllCaps="false"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/fourteen_sp_text_size" />
+
+
+                                            <ImageView
+                                                android:layout_width="40dp"
+                                                android:layout_height="30dp"
+                                                android:layout_alignParentEnd="true"
+                                                android:layout_marginTop="5dp"
+                                                android:layout_marginRight="8dp"
+                                                android:background="@drawable/iodine_purchase_dash_icon" />
+
+
+                                        </RelativeLayout>
+
+
+                                    </androidx.cardview.widget.CardView>
+
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="1">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:id="@+id/totalIodideSaltSale"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="5dp"
+                                        android:backgroundTint="#4AB2D7"
+                                        app:cardCornerRadius="5dp">
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <LinearLayout
+                                                android:id="@+id/layout2"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_above="@+id/popsst"
+                                                android:layout_centerInParent="true"
+                                                android:layout_marginRight="15dp"
+                                                android:orientation="horizontal">
+
+                                                <TextView
+                                                    android:id="@+id/iodizedSaltSaleTv"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:singleLine="true"
+                                                    android:text="@string/_0_000_mt"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="@dimen/fourteen_sp_text_size"
+                                                    android:textStyle="bold" />
+
+
+                                            </LinearLayout>
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_below="@+id/popsst"
+                                                android:layout_centerInParent="true"
+                                                android:singleLine="true"
+                                                android:text="Current Month"
+                                                android:textAllCaps="false"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/eleven_txt_size" />
+
+                                            <TextView
+                                                android:id="@+id/popsst"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_centerInParent="true"
+                                                android:singleLine="true"
+
+                                                android:text="Iodized SALT SALE "
+                                                android:textAllCaps="false"
+
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/fourteen_sp_text_size" />
+
+
+                                            <ImageView
+                                                android:layout_width="45dp"
+                                                android:layout_height="30dp"
+                                                android:layout_alignParentEnd="true"
+                                                android:layout_marginTop="6dp"
+                                                android:layout_marginRight="5dp"
+                                                android:background="@drawable/sale_dashboard_icon" />
+
+
+                                        </RelativeLayout>
+
+
+                                    </androidx.cardview.widget.CardView>
+
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="1">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:id="@+id/totalZoneLayout"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="5dp"
+                                        android:backgroundTint="#4AB2D7"
+                                        app:cardCornerRadius="5dp">
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <TextView
+                                                android:id="@+id/totalZone"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_centerInParent="true"
+                                                android:paddingRight="20dp"
+                                                android:singleLine="true"
+                                                android:text="0"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/fourteen_sp_text_size"
+                                                android:textStyle="bold" />
+
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_below="@+id/totalZone"
+                                                android:layout_centerInParent="true"
+                                                android:paddingRight="20dp"
+                                                android:singleLine="true"
+                                                android:text="TOTAL ZONE"
+
+                                                android:textAllCaps="true"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/fourteen_sp_text_size" />
+
+                                            <ImageView
+                                                android:layout_width="40dp"
+                                                android:layout_height="30dp"
+                                                android:layout_alignParentEnd="true"
+                                                android:layout_marginTop="6dp"
+                                                android:layout_marginRight="10dp"
+                                                android:background="@drawable/total_zone_dashboard_icon" />
+
+
+                                        </RelativeLayout>
+
+
+                                    </androidx.cardview.widget.CardView>
+
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="1">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:id="@+id/totalDeveloperPartnerLayout"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="5dp"
+                                        android:backgroundTint="#4AB2D7"
+                                        app:cardCornerRadius="5dp">
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <TextView
+                                                android:id="@+id/devlopPartnar"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_centerInParent="true"
+                                                android:paddingRight="20dp"
+                                                android:singleLine="true"
+                                                android:text="0"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/fourteen_sp_text_size"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_below="@+id/devlopPartnar"
+                                                android:layout_centerInParent="true"
+                                                android:singleLine="true"
+                                                android:text="Un Organization/ INGO"
+                                                android:textAllCaps="true"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/thirteen_sp_size" />
+
+                                            <ImageView
+                                                android:layout_width="40dp"
+                                                android:layout_height="30dp"
+                                                android:layout_alignParentEnd="true"
+                                                android:layout_marginTop="5dp"
+                                                android:layout_marginRight="10dp"
+                                                android:background="@drawable/ingo_dashboard_icon" />
+
+
+                                        </RelativeLayout>
+
+
+                                    </androidx.cardview.widget.CardView>
+
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="1">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:id="@+id/totalGovtAgency"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="5dp"
+                                        android:backgroundTint="#4AB2D7"
+                                        app:cardCornerRadius="5dp">
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <TextView
+                                                android:id="@+id/govtAgencyTv"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_centerInParent="true"
+                                                android:singleLine="true"
+                                                android:text="0"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/fourteen_sp_text_size"
+                                                android:textStyle="bold" />
+
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_below="@+id/govtAgencyTv"
+                                                android:layout_centerInParent="true"
+                                                android:paddingRight="20dp"
+                                                android:singleLine="true"
+                                                android:text="Govt. Agency"
+                                                android:textAllCaps="true"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/sixteen_sp_tx_size" />
+
+                                            <ImageView
+                                                android:layout_width="35dp"
+                                                android:layout_height="34dp"
+                                                android:layout_alignParentEnd="true"
+                                                android:layout_marginTop="5dp"
+                                                android:layout_marginRight="8dp"
+                                                android:background="@drawable/govt_agency_dashboard_icon" />
+
+
+                                        </RelativeLayout>
+
+
+                                    </androidx.cardview.widget.CardView>
+
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="1">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:id="@+id/totalConsolidoid"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="5dp"
+                                        android:backgroundTint="#4AB2D7"
+                                        app:cardCornerRadius="5dp">
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <TextView
+                                                android:id="@+id/totalMonitoringTv"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_above="@+id/fgdfadg"
+                                                android:layout_centerInParent="true"
+                                                android:singleLine="true"
+                                                android:text="0"
+                                                android:textColor="@color/white"
+
+                                                android:textSize="@dimen/fourteen_sp_text_size"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:id="@+id/fgdfadg"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_centerInParent="true"
+                                                android:singleLine="true"
+                                                android:text="Total Monitoring"
+                                                android:textAllCaps="false"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/fourteen_sp_text_size" />
+
+
+                                            <TextView
+                                                android:id="@+id/hjghjdj"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_below="@+id/fgdfadg"
+                                                android:layout_centerInParent="true"
+                                                android:singleLine="false"
+                                                android:text="Current Month"
+                                                android:textColor="@color/white"
+                                                android:textSize="@dimen/eleven_txt_size" />
+
+
+                                            <ImageView
+                                                android:layout_width="40dp"
+                                                android:layout_height="33dp"
+                                                android:layout_alignParentEnd="true"
+                                                android:layout_marginTop="8dp"
+                                                android:layout_marginRight="8dp"
+                                                android:background="@drawable/total_monitoring_dashboard_icon"
+                                                android:textAllCaps="true" />
+
+
+                                        </RelativeLayout>
+
+
+                                    </androidx.cardview.widget.CardView>
+
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="5dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/salePieChartLayout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:layout_marginTop="15dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:text="Last Month Sales (Industrial &amp; Iodized)
+"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold" />
+
+
+                                <include
+                                    android:id="@+id/pieChartlayout2"
+                                    layout="@layout/pie_chart_layout" />
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:id="@+id/productionPieChartLayout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginRight="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Last Month Production (Industrial &amp; Iodized)"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold" />
+
+                                <include
+                                    android:id="@+id/pieChartlayout1"
+                                    layout="@layout/pie_chart_layout" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp">
+
+
+                            <include
+
+                                android:id="@+id/listLayout"
+                                layout="@layout/dash_board_layout" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </androidx.core.widget.NestedScrollView>
+
+            </LinearLayout>
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottom_navigation"
+                style="@style/rippleTheme"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:background="#349FD6"
+                android:clickable="true"
+                android:fitsSystemWindows="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:itemIconTint="#FFFF"
+                app:itemTextColor="@color/white"
+                app:labelVisibilityMode="labeled"
+                app:layout_behavior="@string/hide_bottom_view_on_scroll_behavior"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:menu="@menu/bottom_nav_menu">
+
+
+            </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+        </RelativeLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</layout>

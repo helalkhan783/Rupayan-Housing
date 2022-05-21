@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/band_dialog_layout.xml" value="0.25" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_add_new_packating.xml" value="0.1" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_add_new_purchase.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_add_new_reconcilation.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_add_new_sale.xml" value="0.1" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_add_new_transfer.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_add_qc__qa.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_confirm_add_new_reconcilation.xml" value="0.25" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_confirm_add_new_transfer.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_confirm_edit_reconcilation.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_confirm_edit_transfer.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_confirm_new_sale.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_confirm_sale_edit.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_edit_reconcilation_data.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_edit_sale_data.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_edit_transfer_data.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_edit_washing_crushing.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_get_pending_washing_and_crushing_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_management.xml" value="0.15260416666666668" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_miller_details_view.xml" value="0.25" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_monitoring_view.xml" value="0.2046875" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_pending_iodization_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_pending_purchase_details.xml" value="0.25" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_purchase_edit_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_purchase_return.xml" value="0.25" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_sales_retun.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_signup.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_stock_alllist.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_transfer_details.xml" value="0.17" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/fragment_user_all_list.xml" value="0.1" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/home_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/home_toolbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/management_toolbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/miller_pending_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/miller_profile_creation_request_dialog.xml" value="0.33" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/navigation_drawer_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/new_sale_product_list_model.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/notification_pending_product_model.xml" value="0.5" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/pending_qcqalist_model.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/pending_washing_crushing_model.xml" value="0.20416666666666666" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/purchase_edit_helper.xml" value="0.22" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/purchase_return.xml" value="0.25" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/qc_history_list_model.xml" value="0.11354166666666667" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/qcqa_declined_model.xml" value="0.11354166666666667" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/stock_list_layout.xml" value="0.25" />
+        <entry key="..\:/AgamiSoft/MIS_ERP/app/src/main/res/layout/transfer_details_item_model.xml" value="0.22" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/drawable-hdpi/licence_shape.xml" value="0.1285" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/drawable-v24/nav_bar_gradient.xml" value="0.1435" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout-large/fragment_varientlist.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout-large/varient_list_layout.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout-v26/stock_filter_layout.xml" value="0.1" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout-v26/stock_list_xml.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout-v28/add_packet_dialog_layout.xml" value="0.1390625" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout-v28/assign_item_packet_layout.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout-v28/fragment_company_owner_info.xml" value="0.13" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/add_store_dialog_layout.xml" value="0.12916666666666668" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/app_exit_dialog.xml" value="0.33" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/certificate_info_info_layout.xml" value="0.14" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/check_licence_model_layout.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/confirm_new_item_model.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/customer_filter_layout.xml" value="0.18" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/customer_list_binding.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/dash_board_layout.xml" value="0.2" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/data_not_found_tv.xml" value="0.16" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/district_wise_sale_report_list_layout.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/enter_prise_layout_store.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_add_edit_time_licence.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_add_new_item.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_add_new_packating.xml" value="0.17" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_add_new_sale.xml" value="0.14140625" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_add_new_user.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_add_qc__qa.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_app_web_view_fragmnet.xml" value="0.1" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_company_owner_info.xml" value="0.12" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_confirm_add_new_item.xml" value="0.1423611111111111" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_dashboard.xml" value="0.15" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_edit_item.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_edit_time_ownwe_add.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_edit_user.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_enter_prise_edit.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_get_pending_washing_and_crushing_details.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_home.xml" value="0.18" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_iodineset.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_item_list.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_login.xml" value="0.16" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_miller_company_owner_info_edit.xml" value="0.1" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_miller_details_view.xml" value="0.12" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_miller_employee_information.xml" value="0.18" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_miller_employee_information_edit.xml" value="0.14140625" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_miller_license_info.xml" value="0.18" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_miller_owner_list_edit.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_miller_profile_information.xml" value="0.2" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_miller_profileinformation_edit.xml" value="0.21" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_miller_qc_information_edit.xml" value="0.18" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_notification.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_packeting_report.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_pending_iodization_details.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_pending_purchase_details.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_profile.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_purchase_return_list.xml" value="0.18" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_reconciliation_report.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_report_lisence.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_report_list.xml" value="0.15" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_signup.xml" value="0.2" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_stock_alllist.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_store_list.xml" value="0.12916666666666668" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_terms_and_privacy.xml" value="0.18" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_un_pack_cartoning.xml" value="0.15" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_update_profile1.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/fragment_varientlist.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/home_layout.xml" value="0.12" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/home_toolbar.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/iodization_history_list_layout.xml" value="0.15" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/iodization_wise_mill_dashboard.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/item_list_layout.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/janina_layout_dashboard.xml" value="0.16" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/last_month_sale_layout_dashboard.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/last_month_zone_wise_mill_dashboard.xml" value="0.12" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/layout_for_licence_check_dialog.xml" value="0.12" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/management_fragment_model_binding.xml" value="0.14140625" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/management_toolbar.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/mill_type_model_layout.xml" value="0.10555555555555556" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/miller_employee_report_list_layout.xml" value="0.12569444444444444" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/miller_licence_report_list_layout.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/miller_owner_model.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/monitoring_filter_layout.xml" value="0.25" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/monitoring_layout_dashboard.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/navigation_drawer_menu.xml" value="0.18" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/pie_chart_layout.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/production_report_list_layout.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/purchase_history_list_layout.xml" value="0.22" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/purchase_pending_list_layout.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/purchase_return_history_list_layout.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/qcqa_recycler_model.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/sale_declined_list_layout.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/slider_list_binding.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/store_list_layout.xml" value="0.12916666666666668" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/supplier_list_binding.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/toolbar_binding.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/topten_miller_layout_dashboard.xml" value="0.15" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/tracking_summary_layout.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/tv_ok.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/update_dialog.xml" value="0.16" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/layout/varient_list_layout.xml" value="0.153125" />
+        <entry key="..\:/Final MIS/MIS_ERP/app/src/main/res/menu/bottom_nav_menu.xml" value="0.153125" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/drawable-v24/bg_toolbar.xml" value="0.2169230769230769" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/drawable/bg_toolbar.xml" value="0.2169230769230769" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/drawable/edit.xml" value="0.21614583333333334" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/drawable/eye1.xml" value="0.21614583333333334" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.2046875" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/drawable/new_lock1.xml" value="0.2203125" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/drawable/shape_registration_top_bg.xml" value="0.20052083333333334" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/dashboard_layout.xml" value="0.22" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/edited_purchase_product_model.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_add_new_miller.xml" value="0.14583333333333334" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_add_new_monitoring.xml" value="1.0" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_add_new_purchase.xml" value="0.18854166666666666" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_all_purchase_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_all_report_list.xml" value="0.18385416666666668" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_dash_board_expense_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_dashboard.xml" value="0.21" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_edit_monitoring.xml" value="0.12228260869565218" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_forgor_pw.xml" value="0.13269927536231885" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_home.xml" value="0.16" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_item_list.xml" value="0.1721014492753623" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_login.xml" value="0.16" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_management.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_miller_all_list.xml" value="0.17980072463768115" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_monitoring_list.xml" value="0.1" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_new_sales_requisition2.xml" value="0.15" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_notification.xml" value="0.16" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_number_verification.xml" value="0.13269927536231885" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_production_all_list.xml" value="0.13269927536231885" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_purchase_return_list.xml" value="0.1" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_purchase_return_report.xml" value="0.22" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_qc_qa_pending.xml" value="0.1" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_report_list.xml" value="0.2" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_sale_all_list.xml" value="0.192481884057971" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_sale_report.xml" value="0.15307971014492755" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_sale_report_list.xml" value="0.18206521739130435" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_salepending_details.xml" value="0.16" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_signup.xml" value="0.13269927536231885" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/fragment_update_password.xml" value="0.13269927536231885" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/home_fragment_model.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/home_layout.xml" value="0.13269927536231885" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/home_toolbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/item_list_layout.xml" value="0.18854166666666666" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/management_fragment_model_binding.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/miller_decline_list_layout.xml" value="0.1721014492753623" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/monitor_details_item_list_layout.xml" value="0.1721014492753623" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/notification_item_model2.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/notification_pending_product_model.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/packaging_list_layout.xml" value="0.18" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/purchase_history_list_layout.xml" value="0.22" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/purchase_layout.xml" value="0.22" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/purchase_report_by_date_layout.xml" value="0.25" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/purchase_return_report_layout.xml" value="0.1" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/sale_history_list_layout.xml" value="0.22" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/sale_pending_list_layout.xml" value="0.1" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/sale_report_list_layout.xml" value="0.1" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/single_sales_requisition.xml" value="0.22" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/toolbar_binding.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/tracking_summary_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/layout/washing_list_layout.xml" value="0.15" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalMisErp/MIS_ERP/app/src/main/res/menu/pop_up_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/KibriaMis/new MIS/MIS_ERP/app/src/main/res/drawable-v24/edittext_shape.xml" value="0.2046875" />
+        <entry key="..\:/KibriaMis/new MIS/MIS_ERP/app/src/main/res/drawable/add_new_packaging_shape.xml" value="0.2046875" />
+        <entry key="..\:/KibriaMis/new MIS/MIS_ERP/app/src/main/res/layout/fragment_add_new_packaging.xml" value="0.1902259590120862" />
+        <entry key="..\:/KibriaMis/new MIS/MIS_ERP/app/src/main/res/layout/miller_employee_report_list_layout.xml" value="0.1" />
+        <entry key="..\:/KibriaMis/new MIS/MIS_ERP/app/src/main/res/layout/packaging_recycler_model.xml" value="0.25" />
+        <entry key="..\:/MISHelal/MIS_ERP/app/src/main/res/layout/fragment_lisence_list.xml" value="0.17447916666666666" />
+        <entry key="..\:/MISHelal/MIS_ERP/app/src/main/res/layout/fragment_miller_employee_report.xml" value="0.17" />
+        <entry key="..\:/MISHelal/MIS_ERP/app/src/main/res/layout/fragment_miller_licence_expire_report.xml" value="0.15" />
+        <entry key="..\:/MISHelal/MIS_ERP/app/src/main/res/layout/fragment_purchase_return_report.xml" value="0.184375" />
+        <entry key="..\:/MISHelal/MIS_ERP/app/src/main/res/layout/fragment_reconciliation_report.xml" value="0.2" />
+        <entry key="..\:/MISHelal/MIS_ERP/app/src/main/res/layout/fragment_report_lisence.xml" value="0.10562890896455872" />
+        <entry key="..\:/MISHelal/MIS_ERP/app/src/main/res/layout/fragment_report_list.xml" value="0.22" />
+        <entry key="..\:/MISHelal/MIS_ERP/app/src/main/res/layout/fragment_sale_report.xml" value="0.18" />
+        <entry key="..\:/MISHelal/MIS_ERP/app/src/main/res/layout/fragment_stock_i_o_reprt_list.xml" value="0.184375" />
+        <entry key="..\:/MISHelal/MIS_ERP/app/src/main/res/layout/fragment_stock_report.xml" value="0.11677479147358666" />
+        <entry key="..\:/MISHelal/MIS_ERP/app/src/main/res/layout/miller_employee_report_list_layout.xml" value="0.22" />
+        <entry key="..\:/MISHelal/MIS_ERP/app/src/main/res/layout/miller_licence_expire_report_list_layout.xml" value="0.2" />
+        <entry key="..\:/MISHelal/MIS_ERP/app/src/main/res/layout/miller_licence_report_list_layout.xml" value="0.15" />
+        <entry key="..\:/MISHelal/MIS_ERP/app/src/main/res/layout/purchase_return_report_layout.xml" value="0.1" />
+        <entry key="..\:/MISHelal/MIS_ERP/app/src/main/res/layout/reconciliation_report_list_layout.xml" value="0.12894736842105264" />
+        <entry key="..\:/MISHelal/MIS_ERP/app/src/main/res/layout/sale_report_list_layout.xml" value="0.184375" />
+        <entry key="..\:/MISHelal/MIS_ERP/app/src/main/res/layout/sale_return_report_list_layout.xml" value="0.18" />
+        <entry key="..\:/MisErp/MIS_ERP/app/src/main/res/layout/fragment_purchase_return_list.xml" value="0.1" />
+        <entry key="..\:/MisErp/MIS_ERP/app/src/main/res/layout/fragment_sale_report.xml" value="0.15" />
+        <entry key="..\:/MisErp/MIS_ERP/app/src/main/res/layout/fragment_sale_return_report.xml" value="0.1" />
+        <entry key="..\:/MisErp/MIS_ERP/app/src/main/res/layout/fragment_sale_return_report_list.xml" value="0.1" />
+        <entry key="..\:/MisErp/MIS_ERP/app/src/main/res/layout/fragment_stock_report.xml" value="0.12" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/drawable-v24/person.xml" value="0.14" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/drawable-v24/submit_button.xml" value="0.14" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/drawable/bg_toolbar.xml" value="0.14" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/drawable/ic_visibility_off_grey_24dp.xml" value="0.14" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/drawable/person.xml" value="0.14" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/drawable/shape_registration_top_bg.xml" value="0.14" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/drawable/submit_button.xml" value="0.14" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout-v26/stock_filter_layout.xml" value="0.14" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout-v28/assign_item_packet_layout.xml" value="0.25" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/dash_board_layout.xml" value="0.14140625" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/filter_tool_bar.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_add_edit_time_licence.xml" value="0.18" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_add_new_customer.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_add_new_monitoring.xml" value="0.18" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_add_new_user.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_dashboard.xml" value="0.14140625" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_forgor_pw.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_item_list.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_login.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_miller_all_list.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_miller_company_owner_info_edit.xml" value="0.22" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_miller_details_view.xml" value="0.14652777777777778" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_miller_employee_information.xml" value="0.17" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_miller_qc_information.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_monitoring_list.xml" value="0.1" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_number_verification.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_packeting_report.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_qr_scan.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_reconciliation_report.xml" value="0.16" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_report_lisence.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_report_list.xml" value="0.18" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_sale_all_list.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_signup.xml" value="0.2" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_stock_alllist.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_store_list.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/fragment_update_profile1.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/home_layout.xml" value="0.14140625" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/inbox_layout.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/item_list_layout.xml" value="0.12" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/management_fragment_model_binding.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/message_seen_dialog.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/miller_owner_model.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/millet_filter_layout.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/monitoring_filter_layout.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/purchase_filter_layout.xml" value="0.21" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/slider_list_binding.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/toolbar_binding.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/transfer_report_layout.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/transferred_filter_layout.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/MIS_ERP/app/src/main/res/layout/trash_item_list_layout.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/drawable-ldpi/choturvuj_shape.xml" value="0.153" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/drawable-v24/bg_toolbar.xml" value="0.153" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/drawable-v24/btn_colorshape.xml" value="0.1815" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/drawable-v24/home_circle_shape.xml" value="0.153" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/drawable-v24/nav_bar_gradient.xml" value="0.1815" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/drawable-v24/tool_bar_colo.xml" value="0.1815" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/drawable/alert_btn.xml" value="0.1435" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/drawable/bg_toolbar.xml" value="0.1815" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/drawable/btn_colorshape.xml" value="0.1815" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/drawable/home_circle_shape.xml" value="0.153" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/drawable/nav_bar_gradient.xml" value="0.1815" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/drawable/new_shape.xml" value="0.1815" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/drawable/tool_bar_colo.xml" value="0.1815" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/app_exit_dialog.xml" value="0.16" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/brand_list_layout.xml" value="0.22" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/category_item_list_layout.xml" value="0.25" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/fragment_add_new_item.xml" value="0.18" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/fragment_home.xml" value="0.14" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/fragment_item_list.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/fragment_login.xml" value="0.22" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/fragment_reconciliation_report.xml" value="0.2" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/fragment_report_lisence.xml" value="0.13203125" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/fragment_report_list.xml" value="0.18" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/fragment_splash_screen.xml" value="0.1" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/home_layout.xml" value="0.2" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/home_toolbar.xml" value="0.16" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/item_list_layout.xml" value="0.22" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/management_fragment_model.xml" value="0.153125" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/navigation_drawer_menu.xml" value="0.18" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/purchase_history_list_layout.xml" value="0.2" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/sale_return_report_list_layout.xml" value="0.19" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/toolbar_binding.xml" value="0.17657657657657658" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/layout/tracking_summary_layout.xml" value="0.16" />
+        <entry key="..\:/My Iodine/Rupayan Housing/app/src/main/res/menu/bottom_nav_menu.xml" value="0.13203125" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/customer_list_binding.xml" value="0.33" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/filter_model.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/fragment_add_new_customer.xml" value="0.22" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/fragment_add_new_miller.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/fragment_add_new_monitoring.xml" value="0.22" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/fragment_add_new_purchase2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/fragment_add_new_sale.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/fragment_add_qc__qa.xml" value="0.25" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/fragment_confirm_new_sale.xml" value="0.25" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/fragment_confirm_purchase.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/fragment_edit_monitoring.xml" value="0.22" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/fragment_expense_due_payment_received.xml" value="0.15648148148148147" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/fragment_miller_employee_information.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/fragment_miller_license_info.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/fragment_miller_profile_information.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/fragment_miller_qc_information.xml" value="0.33" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/fragment_monitoring_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/fragment_new_sale.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/fragment_new_sales_requisition2.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/fragment_qc_qa_pending.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/management_fragment_model.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/management_fragment_model_binding.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/management_toolbar.xml" value="0.15648148148148147" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/monitoring_list_model.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/new_sale_product_list_model.xml" value="0.5" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/pending_qcqalist_model.xml" value="0.33" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/qcqa_declined_model.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/selected_new_confirm_sale_model.xml" value="0.2873030583873957" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/ERPSaltApp/app/src/main/res/layout/toolbar_binding.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/drawable/delete_btn.xml" value="0.2203125" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/drawable/edit.xml" value="0.2203125" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/drawable/eye1.xml" value="0.2203125" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/add_new_packaging_toolbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/add_new_packating_model.xml" value="0.25" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_add_new_customer.xml" value="0.33" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_add_new_miller.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_add_new_packaging.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_add_new_packating.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_add_new_purchase2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_add_new_sale.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_add_qc__qa.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_company_owner_info.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_confirm_edit_purchase.xml" value="0.13636363636363635" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_confirm_iodization.xml" value="0.25" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_confirm_new_sale.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_confirm_packaging.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_confirm_packating.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_confirm_purchase.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_confirm_sale_edit.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_confirm_washing_and_crushing.xml" value="0.22" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_edit__q_c_q_a.xml" value="0.20427305888483585" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_edit_miller.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_edit_purchase_data.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_edit_sale_data.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_iodization.xml" value="0.22" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_management.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_miller_all_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_miller_company_owner_info_edit.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_miller_employee_information.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_miller_employee_information_edit.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_miller_license_info.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_miller_licenseinfo_edit.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_miller_profile_information.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_miller_profileinformation_edit.xml" value="0.33" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_miller_qc_information.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_miller_qc_information_edit.xml" value="0.25" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_monitoring_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_production_all_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_qc_qa_pending.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_sale_all_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_un_packet.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/fragment_washing_and_crushing.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/home_fragment_model.xml" value="0.1609375" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/management_fragment_model_binding.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/miller_history_list_layout.xml" value="0.33" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/new_sale_product_list_model.xml" value="0.22" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/packaging_recycler_model.xml" value="0.25" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/pending_qcqalist_model.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/purchase_history_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/sale_history_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/sale_pending_list_layout.xml" value="0.33" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/toolbar_binding.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_CLONE/MIS_ERP/app/src/main/res/layout/washing_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/drawable/add_new_item.xml" value="0.2203125" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/app_exit_dialog.xml" value="0.4083333333333333" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/brand_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/cash_book_model.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/confirm_new_item_model.xml" value="0.25" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/exoending_sub_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/expending_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_add_new_customer.xml" value="0.22" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_add_new_foreign_supplier.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_add_new_item.xml" value="0.19" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_add_new_local_supplier.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_add_new_miller.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_add_new_packaging.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_add_new_purchase2.xml" value="0.22" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_add_new_sale.xml" value="0.1421875" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_add_new_transfer.xml" value="0.22" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_add_new_user.xml" value="0.33" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_company_owner_info.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_confirm_add_new_item.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_confirm_add_new_transfer.xml" value="0.25" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_confirm_edit_iodization.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_confirm_edit_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_confirm_edit_purchase.xml" value="0.25" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_confirm_edit_washing_and_crushing.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_confirm_new_sale.xml" value="0.33" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_confirm_purchase.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_confirm_washing_and_crushing.xml" value="0.25" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_due_collection.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_edit__q_c_q_a.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_edit_iodization.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_edit_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_edit_sale_data.xml" value="0.14" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_edit_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_edit_washing_crushing.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_forgor_pw.xml" value="0.22" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_home.xml" value="0.18" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_iodization.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_item_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_miller_employee_report.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_miller_license_info.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_miller_profile_information.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_miller_profileinformation_edit.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_number_verification.xml" value="0.22" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_packaet_packeg_iodine_report_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_packeting_report.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_purchase_return_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_reconciliation_report.xml" value="0.33" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_report_lisence.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_sale_all_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_sale_report.xml" value="0.21" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_signup.xml" value="0.25" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_stock_alllist.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_transfer_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_update_password.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/fragment_user_all_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/home_fragment_model.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/home_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/home_toolbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/iodization_history_list_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/item_list_layout.xml" value="0.5" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/manage_user_permission_model.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/miller_decline_list_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/miller_employee_report_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/miller_history_list_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/miller_licence_expire_report_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/miller_licence_report_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/miller_pending_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/nav_header.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/navigation_drawer_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/new_sale_product_list_model.xml" value="0.22" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/notification_item_model.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/notification_item_model2.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/notification_pending_product_model.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/packaging_recycler_model.xml" value="0.33" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/permission_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/purchase_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/purchase_history_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/purchase_return_report_layout.xml" value="0.1765625" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/sale_history_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/sale_pending_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/sale_report_list_layout.xml" value="0.15104166666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/toolbar_binding.xml" value="0.17" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/tracking_summary_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/trash_item_list_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/user_accessability_model.xml" value="0.25" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/user_list_model.xml" value="0.33" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/user_permission_model.xml" value="0.33" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/user_trashlist_model.xml" value="0.33" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/washing_crushing_edited_model.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/layout/washing_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
+        <entry key="..\:/Users/Golam Kibria/Desktop/MIS_ERP/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2203125" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/creditors_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/customer_filter_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/edited_iodizationitem_model.xml" value="0.20416666666666666" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/fragment_add_new_user.xml" value="0.33" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/fragment_add_qc__qa.xml" value="0.20416666666666666" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/fragment_confirm_iodization.xml" value="0.20416666666666666" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/fragment_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/fragment_edit__q_c_q_a.xml" value="0.1" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/fragment_edit_user.xml" value="0.153125" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/fragment_forgor_pw.xml" value="0.12291666666666666" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/fragment_home_page_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/fragment_management.xml" value="0.20416666666666666" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/fragment_monitoring_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/fragment_pending_iodization_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/fragment_qc_qa_details.xml" value="0.33" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/fragment_qc_qa_pending.xml" value="0.20416666666666666" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/fragment_reconciliation_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/fragment_signup.xml" value="0.22" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/home_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/miller_profile_creation_request_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/pending_qcqalist_model.xml" value="0.20416666666666666" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/purchase_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/layout/qcqa_details_test_model.xml" value="0.25" />
+        <entry key="..\:/agamiSoft/MIS_ERP/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable-v24/arrow_right.xml" value="0.1935185185185185" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable-v24/border.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable-v24/download.xml" value="0.2169230769230769" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable-v24/ic_add_white_24dp.xml" value="0.1787037037037037" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable-v24/ic_search_orange_24dp.xml" value="0.1648148148148148" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable-v24/icon_edit.xml" value="0.17037037037037037" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable-v24/submit_button.xml" value="0.124" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable/add_btn_main.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable/arrow_right.xml" value="0.1935185185185185" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable/back_up.xml" value="0.124" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable/edit.xml" value="0.124" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable/edittext_shape.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable/erro_logo.xml" value="0.147" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable/filter_btn_shape.xml" value="0.13518518518518519" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable/filter_reset_btn_shape.xml" value="0.124" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable/ic_add_white_24dp.xml" value="0.1787037037037037" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable/ic_arrow_drop_down_black_24dp.xml" value="0.124" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.178125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable/new_trac.xml" value="0.13240740740740742" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable/order_shape.xml" value="0.1405" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable/pending_washing.xml" value="0.15925925925925927" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable/shape_for_cross_btn.xml" value="0.1175" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable/shape_for_delete_button.xml" value="0.1405" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable/shape_product_piece_button_bg.xml" value="0.1175" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/drawable/submit_button.xml" value="0.1935185185185185" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout-large/tv_ok.xml" value="0.22" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout-v26/stock_filter_layout.xml" value="0.17" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout-v26/stock_layout.xml" value="0.14140625" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout-v26/stock_list_xml.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout-v26/tv_ok.xml" value="0.153125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout-v28/fragment_company_owner_info.xml" value="0.25" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/activity_main.xml" value="0.10972222222222222" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/add_new_packaging_toolbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/add_new_packating_model.xml" value="0.16" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/add_store_dialog_layout.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/app_exit_dialog.xml" value="0.14492753623188406" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/band_dialog_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/brand_list_layout.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/category_item_list_layout.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/certificate_info_info_layout.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/check_licence_model_layout.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/confirm_new_item_model.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/custome_edit_history_layout.xml" value="0.14140625" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/customer_filter_layout.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/customer_list_binding.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/dash_board_layout.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/district_wise_sale_report_list_layout.xml" value="0.153125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/edit_qcqa_model.xml" value="0.12" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/edited_purchase_product_model.xml" value="0.153125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/enter_prise_layout_store.xml" value="0.153125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/filter_model.xml" value="0.14140625" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/filter_tool_bar.xml" value="0.20416666666666666" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_add_new_customer.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_add_new_foreign_supplier.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_add_new_item.xml" value="0.16" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_add_new_local_supplier.xml" value="0.17" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_add_new_miller.xml" value="0.20416666666666666" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_add_new_monitoring.xml" value="0.2" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_add_new_packaging.xml" value="0.16" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_add_new_packating.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_add_new_purchase2.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_add_new_reconcilation.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_add_new_sale.xml" value="0.17" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_add_new_transfer.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_add_new_user.xml" value="0.21" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_add_qc__qa.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_all_purchase_list.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_all_sub_history_list_fragmet.xml" value="0.153125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_blank2.xml" value="0.14140625" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_company_owner_info.xml" value="0.25" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_confirm_add_new_item.xml" value="0.10972222222222222" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_confirm_add_new_reconcilation.xml" value="0.11666666666666667" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_confirm_add_new_transfer.xml" value="0.11666666666666667" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_confirm_edit_iodization.xml" value="0.153125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_confirm_edit_purchase.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_confirm_edit_reconcilation.xml" value="0.125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_confirm_edit_transfer.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_confirm_edit_washing_and_crushing.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_confirm_iodization.xml" value="0.25" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_confirm_packaging.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_confirm_packating.xml" value="0.153125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_confirm_purchase.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_confirm_sale_edit.xml" value="0.12986111111111112" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_confirm_washing_and_crushing.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_customer_details.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_dashboard.xml" value="0.12" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_edit__q_c_q_a.xml" value="0.12" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_edit_confirm_packaging.xml" value="0.153125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_edit_customer.xml" value="0.13402777777777777" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_edit_foreign_supplier.xml" value="0.11953125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_edit_iodization.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_edit_item.xml" value="0.10694444444444444" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_edit_local_supplier.xml" value="0.25" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_edit_miller.xml" value="0.14140625" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_edit_monitoring.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_edit_packeging_data.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_edit_purchase_data.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_edit_reconcilation_data.xml" value="0.13976833976833977" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_edit_sale_data.xml" value="0.12" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_edit_transfer_data.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_edit_user.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_edit_washing_crushing.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_enter_prise_edit.xml" value="0.22" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_forgor_pw.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_get_pending_washing_and_crushing_details.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_home.xml" value="0.11735941320293398" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_iodineset.xml" value="0.14140625" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_iodization.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_iodization_edit_details.xml" value="0.124609375" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_item_list.xml" value="0.22" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_login.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_management.xml" value="0.20416666666666666" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_miller_all_list.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_miller_company_owner_info_edit.xml" value="0.14140625" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_miller_details_view.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_miller_employee_information.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_miller_employee_information_edit.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_miller_license_info.xml" value="0.22" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_miller_licenseinfo_edit.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_miller_owner_list_edit.xml" value="0.153125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_miller_profile_information.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_miller_profileinformation_edit.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_miller_qc_information.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_miller_qc_information_edit.xml" value="0.14930555555555555" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_monitoring_list.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_monitoring_view.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_notification.xml" value="0.15135135135135136" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_number_verification.xml" value="0.14140625" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_packaging_details.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_packeting_report.xml" value="0.25" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_pending_iodization_details.xml" value="0.16" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_pending_purchase_details.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_pending_sales_return_details.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_production_all_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_purchase_and_sale_return_details.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_purchase_edit_details.xml" value="0.14140625" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_purchase_return.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_purchase_return_list.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_purchase_return_pending_details.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_qc_qa_details.xml" value="0.15069444444444444" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_qc_qa_pending.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_reconciliation_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_reconciliation_report.xml" value="0.19" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_report_lisence.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_report_list.xml" value="0.16" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_sale_all_list.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_salepending_details.xml" value="0.17239583333333333" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_sales_retun.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_signup.xml" value="0.12" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_splash_screen.xml" value="0.153125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_stock_alllist.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_store_list.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_supplier_due_payment_receive.xml" value="0.18854166666666666" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_transfer_details.xml" value="0.12" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_un_pack_cartoning.xml" value="0.16" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_update_password.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_update_profile.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_update_profile1.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_user_all_list.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/fragment_washing_and_crushing.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/home_layout.xml" value="0.12" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/home_toolbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/iodization_history_list_layout.xml" value="0.21" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/iodization_item_model.xml" value="0.17" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/iodization_wise_mill_dashboard.xml" value="0.153125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/item_list_layout.xml" value="0.12" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/janina_layout_dashboard.xml" value="0.1390625" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/last_month_sale_layout_dashboard.xml" value="0.12265625" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/last_month_zone_wise_mill_dashboard.xml" value="0.22" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/layout_for_licence_check_dialog.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/lisence_info_layout.xml" value="0.14140625" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/local_supplier_layout.xml" value="0.22" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/management_fragment_model_binding.xml" value="0.1078125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/management_toolbar.xml" value="0.153125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/mill_edit_history_layout.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/mill_report_list_layout.xml" value="0.21" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/mill_type_model_layout.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/miller_decline_list_layout.xml" value="0.17753623188405798" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/miller_employee_report_list_layout.xml" value="0.153125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/miller_history_list_layout.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/miller_licence_expire_report_list_layout.xml" value="0.1451388888888889" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/miller_owner_info_layout.xml" value="0.17753623188405798" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/miller_owner_model.xml" value="0.12" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/miller_pending_list_layout.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/miller_profile_creation_request_dialog.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/millet_filter_layout.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/monitor_list_binding.xml" value="0.13" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/monitoring_agency_layout_report.xml" value="0.12638888888888888" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/monitoring_filter_layout.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/monitoring_history_list_model.xml" value="0.21" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/monitoring_layout_dashboard.xml" value="0.153125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/monitoring_list_model.xml" value="0.16" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/monitoring_report_list_layout.xml" value="0.11805555555555555" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/navigation_drawer_menu.xml" value="0.17" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/new_monitoring_list_binding.xml" value="0.153125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/new_sale_product_list_model.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/notification_item_model2.xml" value="0.14140625" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/notification_pending_product_model.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/number_verification_dialog.xml" value="0.153125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/packaging_details_list_layout.xml" value="0.16" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/packaging_list_layout.xml" value="0.16" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/packaging_recycler_model.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/packeging_report_list_layout.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/packeting_list_layout.xml" value="0.22" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/pending_qcqalist_model.xml" value="0.20416666666666666" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/pending_washing_crushing_model.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/permission_list.xml" value="0.25" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/pie_chart_layout.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/production_report_list_layout.xml" value="0.153125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/purchase_dialog.xml" value="0.17192982456140352" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/purchase_edit_helper.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/purchase_filter_layout.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/purchase_history_list_layout.xml" value="0.22" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/purchase_pending_list_layout.xml" value="0.2" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/purchase_return.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/purchase_return_history_list_layout.xml" value="0.22" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/qc_history_list_model.xml" value="0.14" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/qc_qa_filter_layout.xml" value="0.16" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/qcqa_declined_model.xml" value="0.2" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/qcqa_details_test_model.xml" value="0.16" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/qcqa_history_list_model.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/qcqa_recycler_model.xml" value="0.14140625" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/reconciliation_list_layout.xml" value="0.12" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/reconciliation_report_list_layout.xml" value="0.20250723240115717" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/sale_declined_list_layout.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/sale_history_list_layout.xml" value="0.18" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/sale_pending_list_layout.xml" value="0.22382671480144403" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/sale_return_report_list_layout.xml" value="0.12152777777777778" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/selected_new_confirm_sale_model.xml" value="0.14140625" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/slider_list_binding.xml" value="0.153125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/stock_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/stock_transfer_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/store_list_layout.xml" value="0.2" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/supplier_list_binding.xml" value="0.25" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/test4.xml" value="0.2" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/toolbar_binding.xml" value="0.12" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/topten_miller_layout_dashboard.xml" value="0.1390625" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/tracking_summary_layout.xml" value="0.17" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/transfer_details_item_model.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/transfer_report_layout.xml" value="0.22" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/transferred_filter_layout.xml" value="0.16" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/trash_item_list_layout.xml" value="0.15" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/tv_ok.xml" value="0.22" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/user_accessability_model.xml" value="0.14027777777777778" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/user_filter_layout.xml" value="0.1" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/user_list_model.xml" value="0.20416666666666666" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/user_permission_model.xml" value="0.153125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/user_trashlist_model.xml" value="0.20416666666666666" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/layout/washing_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
+        <entry key="..\:/gitMis/MIS_ERP/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2203125" />
+        <entry key="..\:/new mis/MIS_ERP/app/src/main/res/layout/new_sale_product_list_model.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
